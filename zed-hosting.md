@@ -17,12 +17,12 @@ description: Proud to have Zed Hosting as a sponsor.  No matter what, they got y
 <figure><img src=".gitbook/assets/Screenshot 2024-07-06 at 6.26.02 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Backups" %}
-<figure><img src=".gitbook/assets/Screenshot 2024-07-06 at 6.26.02 PM (1).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Firewall" %}
+<figure><img src=".gitbook/assets/Screenshot 2024-07-06 at 6.55.18 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Firewall" %}
-<figure><img src=".gitbook/assets/Screenshot 2024-07-06 at 6.26.02 PM (1).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Backups" %}
+<figure><img src=".gitbook/assets/Screenshot 2024-07-06 at 6.31.26 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
