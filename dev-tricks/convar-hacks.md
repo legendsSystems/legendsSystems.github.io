@@ -1,4 +1,8 @@
-# ConVar Hacks
+---
+description: Use these values in other scripts configurations.
+---
+
+# conVar Hacks
 
 {% code title="server.cfg (Dev Server)" %}
 ```lua
@@ -21,4 +25,10 @@ Config.CopsNeeded = GetConvarInt("CopsNeeded", 2) == 2
 ```
 {% endcode %}
 
-> This way you can test illegal activities on Dev without having to go back and make changes before you go live
+{% hint style="info" %}
+This way you can test illegal activities on Dev without having to go back and make changes before you go live
+{% endhint %}
+
+{% hint style="warning" %}
+Why not use a Boolean value for CopsRequired?  Since LUA processes them both as false, isn't it the same?  Technically yes, but LUA processes Int values much faster than Boolean values.
+{% endhint %}
