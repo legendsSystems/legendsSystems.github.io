@@ -18,7 +18,7 @@
   * [Configuration](developer-tools/legendslogging/configuration.md)
   * [Common Issues](developer-tools/legendslogging/common-issues.md)
 
-## Scripts
+## ➕ Scripts
 
 * [legendsNewsPaper](scripts/legendsnewspaper/README.md)
   * [Installation](scripts/legendsnewspaper/installation.md)
@@ -28,6 +28,10 @@
   * [Installation](scripts/legendsmultijob/installation.md)
   * [Configuration](scripts/legendsmultijob/configuration.md)
   * [Common Issues](scripts/legendsmultijob/common-issues.md)
+
+## ➕ Guides
+
+* [legendsCaching](guides/legendscaching.md)
 
 ## Dev Tricks
 
