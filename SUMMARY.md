@@ -16,10 +16,6 @@
 
 ## Scripts-Paid
 
-* [legendsDebugging](scripts-paid/legendsdebugging/README.md)
-  * [Installation](scripts-paid/legendsdebugging/installation.md)
-  * [Configuration](scripts-paid/legendsdebugging/configuration.md)
-  * [Common Issues](scripts-paid/legendsdebugging/common-issues.md)
 * [legendsLogging](scripts-paid/legendslogging/README.md)
   * [Installation](scripts-paid/legendslogging/installation.md)
   * [Configuration](scripts-paid/legendslogging/configuration.md)
@@ -38,6 +34,11 @@
 
 ## Dev Tricks
 
-* [conVar Hacks](dev-tricks/convar-hacks.md)
+* [consoleTricks](dev-tricks/consoletricks.md)
+* [convarTricks](dev-tricks/convartricks.md)
+* [debuggingTricks](dev-tricks/debuggingtricks/README.md)
+  * [Installation](dev-tricks/debuggingtricks/installation.md)
+  * [Configuration](dev-tricks/debuggingtricks/configuration.md)
+  * [Common Issues](dev-tricks/debuggingtricks/common-issues.md)
 * [vscodeExtensions](dev-tricks/vscodeextensions/README.md)
   * [FiveM QBCore Snippets](dev-tricks/vscodeextensions/fivem-qbcore-snippets.md)
