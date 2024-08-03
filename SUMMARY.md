@@ -40,6 +40,8 @@
 ## Guides
 
 * [legendsCaching](guides/legendscaching.md)
+* [legendsTuning](guides/legendstuning/README.md)
+  * [Threads](guides/legendstuning/threads.md)
 
 ## Developer Tools
 
