@@ -16,10 +16,26 @@
 
 ## Scripts-Paid
 
+* [legendsDyno](scripts-paid/legendsdyno/README.md)
+  * [Installation](scripts-paid/legendsdyno/installation.md)
+  * [Configuration](scripts-paid/legendsdyno/configuration.md)
+  * [Common Issues](scripts-paid/legendsdyno/common-issues.md)
 * [legendsLogging](scripts-paid/legendslogging/README.md)
   * [Installation](scripts-paid/legendslogging/installation.md)
   * [Configuration](scripts-paid/legendslogging/configuration.md)
   * [Common Issues](scripts-paid/legendslogging/common-issues.md)
+* [legendsPlayerMenu](scripts-paid/legendsplayermenu/README.md)
+  * [Installation](scripts-paid/legendsplayermenu/installation.md)
+  * [Configuration](scripts-paid/legendsplayermenu/configuration.md)
+  * [Common Issues](scripts-paid/legendsplayermenu/common-issues.md)
+* [legendsWeather](scripts-paid/legendsweather/README.md)
+  * [Installation](scripts-paid/legendsweather/installation.md)
+  * [Configuration](scripts-paid/legendsweather/configuration.md)
+  * [Common Issues](scripts-paid/legendsweather/common-issues.md)
+* [legendsConcert](scripts-paid/legendsconcert/README.md)
+  * [Installation](scripts-paid/legendsconcert/installation.md)
+  * [Configuration](scripts-paid/legendsconcert/configuration.md)
+  * [Common Issues](scripts-paid/legendsconcert/common-issues.md)
 
 ## Guides
 
