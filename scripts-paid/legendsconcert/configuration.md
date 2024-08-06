@@ -1,23 +1,5 @@
 # Configuration
 
-Add microphone to shared items lua
-
-{% code title="shared/items.lua" %}
-```lua
-microphone = {
-		name = "microphone",
-		label = "Microphone",
-		weight = 100,
-		type = "item",
-		image = "microphone.png",
-		unique = true,
-		useable = true,
-		shouldClose = true,
-		description = "A microphone for musical performances",
-	},
-```
-{% endcode %}
-
 Add additional microphone stands
 
 ```lua

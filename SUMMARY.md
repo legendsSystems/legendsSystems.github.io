@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to legendsSystems](README.md)
+* [👋 Welcome](README.md)
 * [💯 Zed Hosting](zed-hosting.md)
 
 ## Scripts-Free
