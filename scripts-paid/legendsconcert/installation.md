@@ -26,6 +26,7 @@ To make sure the asset works as it should, there are a few scripts you must down
 | Dependency | Link                                                                                     |
 | ---------- | ---------------------------------------------------------------------------------------- |
 | pma-voice  | [https://github.com/AvarianKnight/pma-voice](https://github.com/AvarianKnight/pma-voice) |
+| PolyZone   | [https://github.com/mkafrin/PolyZone](https://github.com/mkafrin/PolyZone)               |
 
 ## Add items to inventory script
 
@@ -43,7 +44,7 @@ microphone = {
 		unique = true,
 		useable = true,
 		shouldClose = true,
-		description = "A microphone for music performances",
+		description = "A microphone used for concerts and other events.",
 	},
 ```
 {% endcode %}
@@ -60,7 +61,7 @@ microphone = {
 		unique = true,
 		useable = true,
 		shouldClose = true,
-		description = "A microphone for music performances",
+		description = "A microphone used for concerts and other events.",
 	},
 ```
 {% endtab %}
@@ -76,7 +77,7 @@ microphone = {
 		unique = true,
 		useable = true,
 		shouldClose = true,
-		description = "A microphone for music performances",
+		description = "A microphone used for concerts and other events.",
 	},		
 ```
 {% endtab %}
@@ -102,11 +103,12 @@ Copy the microphone.png to your ox\_inventory/web/images directory
 
 To get legendsConcert running smoothly on your FiveM server, it's important to start the scripts in the right order. This ensures everything loads correctly, avoiding problems and making sure the system works well.
 
-```
+```properties
 # Start your core
 ensure qb-core
 
-# Before you start legendsConcert make sure to start pma-voice
+# Before you start legendsConcert make sure to start PolyZone and pma-voice
+ensure PolyZone
 ensure pma-voice
 
 # Then start the resource

@@ -3,22 +3,53 @@
 Add additional microphone stands
 
 ```lua
-Config.MicrophoneZones = {
-    [1] = {
-        name = "vinewood_bowl", -- unique name of the zone
-        coords = vector3(683.37, 569.31, 130.46), -- coords of the created boxzone
-        length = 3.4, -- length of the created boxzone
-        width = 3.6, -- width of the created boxzone
-        spawnProp = true, -- if set to true, it will let you spawn the prop at location
-        data = {
-            debugPoly = Config.Showzone, 
-            heading = 340, -- heading from created boxzone
-            minZ = 127.86, --minZ from the created boxzone
-            maxZ = 131.86, -- maxZ from the created boxzone
-            data = {
-                range = 50.0 -- range for the voice at that particular boxzone
-            }
-        }
-    }
+Config = {}
+Config.DebugPoly = false
+Config.MicrophoneStands = {
+	[1] = {
+		name = "maze_bank",
+		spawnProp = false,
+		coords = vector3(-322.34, -1966.29, 22.94),
+		heading = 316.33,
+		length = 3.4,
+		width = 3.6,
+		data = {
+			minZ = 18.00,
+			maxZ = 50.00,
+			data = {
+				range = 150.0, -- range for the voice
+			},
+		},
+	},
+	[2] = {
+		name = "lostmc",
+		spawnProp = false,
+		coords = vector3(2510.31, 4087.83, 38.29),
+		heading = 46.00,
+		length = 1.4,
+		width = 1.6,
+		data = {
+			minZ = 18.00,
+			maxZ = 50.00,
+			data = {
+				range = 150.0, -- range for the voice
+			},
+		},
+	},
+	[3] = {
+		name = "lostmc",
+		spawnProp = true,
+		coords = vector3(2527.32, 4114.86, 43.15),
+		heading = 246.00,
+		length = 1.4,
+		width = 1.6,
+		data = {
+			minZ = 18.00,
+			maxZ = 50.00,
+			data = {
+				range = 150.0, -- range for the voice
+			},
+		},
+	},
 }
 ```
