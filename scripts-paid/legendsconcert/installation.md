@@ -99,6 +99,22 @@ Copy the microphone.png to your ox\_inventory/web/images directory
 {% endtab %}
 {% endtabs %}
 
+## Update lighter to be usable
+
+```lua
+lighter = {
+		name = "lighter",
+		label = "Lighter",
+		weight = 0,
+		type = "item",
+		image = "lighter.png",
+		unique = false,
+		useable = true,
+		shouldClose = true,
+		description = "Salute to the light!",
+	}
+```
+
 ## Ensure the resource
 
 To get legendsConcert running smoothly on your FiveM server, it's important to start the scripts in the right order. This ensures everything loads correctly, avoiding problems and making sure the system works well.
