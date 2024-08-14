@@ -16,6 +16,10 @@
 
 ## Scripts-Paid
 
+* [legendsATMRobbery](scripts-paid/legendsatmrobbery/README.md)
+  * [Installation](scripts-paid/legendsatmrobbery/installation.md)
+  * [Configuration](scripts-paid/legendsatmrobbery/configuration.md)
+  * [Common Issues](scripts-paid/legendsatmrobbery/common-issues.md)
 * [legendsDyno](scripts-paid/legendsdyno/README.md)
   * [Installation](scripts-paid/legendsdyno/installation.md)
   * [Configuration](scripts-paid/legendsdyno/configuration.md)
