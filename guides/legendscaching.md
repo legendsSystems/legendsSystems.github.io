@@ -53,6 +53,25 @@ docker ps -a
 docker logs legendscaching-cache-1
 ```
 
+```
+docker stop legendscaching-cache-1
+```
+
+### Setup SSL
+
+```
+sudo apt update
+sudo apt install -y nginx
+sudo apt install -y python3-certbot-nginx
+```
+
+```
+sudo certbot certonly --nginx -d FQDN
+sudo cp /etc/letsencrypt/live/FQDN/* certs/
+systemctl stop nginx.service
+docker compose up -d --build
+```
+
 ## On Game Server
 
 ### Edit / Add to server.cfg
